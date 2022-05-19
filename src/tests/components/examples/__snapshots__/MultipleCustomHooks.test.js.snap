@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando multiples hooks Debe de mostrarse correctamente  1`] = `
+<Fragment>
+  <h1>
+    Breaking bad quotes!!!
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading....
+  </div>
+  <blockquote
+    className="blockquote text-right"
+  >
+    <p
+      className="mb-0"
+    />
+    <footer
+      className="blockquote-footer"
+    />
+  </blockquote>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Get more
+  </button>
+</Fragment>
+`;

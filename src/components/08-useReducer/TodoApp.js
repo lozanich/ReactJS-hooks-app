@@ -14,7 +14,7 @@ export const TodoApp = () => {
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(todos));
   }, [todos]);
-  console.log(todos);
+  // console.log(todos);
 
   const handleDelete = (item) => {
     const actionDelete = {
@@ -41,7 +41,7 @@ export const TodoApp = () => {
 
   return (
     <>
-      <h1>Todo app ({todos.length})</h1>
+      <h1>Todo App ({todos.length})</h1>
       <hr />
 
       <div className="row">

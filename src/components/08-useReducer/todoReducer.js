@@ -7,8 +7,8 @@ export const todoReducer = (state = [], action) => {
       return state.filter((i) => i.id !== action.payload.id);
 
     case "toggle":
-      console.log("toggle");
-      console.log(action.payload);
+      // console.log("toggle");
+      // console.log(action.payload);
       return state.map((item) =>
         item.id === action.payload.id ? { ...item, done: !item.done } : item
       );
